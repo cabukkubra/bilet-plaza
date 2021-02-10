@@ -1,0 +1,1468 @@
+@media (min-width: 1199px) and (max-width: 1460px) {
+	.train-border{
+		margin: 0px 13px;
+	}
+	.train-logo {
+	    margin-left: 28px;
+	}
+	.price-scroll{
+		overflow-x: scroll;
+	}
+
+	.fly-border, .bus-border{
+		margin: 0px 18px;
+	}
+
+	.fly-detail-title1{
+		max-width: 100% !important;
+		margin-bottom: 40px !important;
+	}
+	.fly-detail-title2{
+		max-width: 100% !important;
+		padding: 0px !important;
+		float: left !important;
+	}
+	.fly-detail-text-info ul li {
+    	font-size: 12px;
+	}
+	.standby-time{
+		margin-left: -13px
+	}
+	.ticket-detail-date{
+		float: left !important;
+	}
+
+}
+
+@media (max-width: 1199px) {
+
+	.contact-padding{
+		padding: 0px 20px !important;
+	}
+	
+	.ssl-logo > img {
+	    margin-right: 3px;
+	}
+
+	.fly-logo{
+		padding-left: 13px;
+	    margin-right: 14px;
+	}
+
+	.bus-logo {
+	    margin-left: 3px;
+	}
+
+	.ticket-search-select{
+		margin-right: 1px;
+	}
+
+	.running-out-number{
+		right: 12px;
+	}
+
+	.detail-fly{
+		padding: 3px 6px;
+	}
+
+	.train-logo {
+	    margin-left: 0px;
+	}
+	.train-border{
+		margin: 0px 20px;
+	}
+	.bus-logo {
+	    margin-left: 0px;
+	    margin-right: 20px;
+	}
+
+	.price-scroll{
+		overflow-x: scroll;
+	}
+	.fly-detail-title1{
+		max-width: 100% !important;
+		margin-bottom: 40px !important;
+	}
+	.fly-detail-title2{
+		max-width: 100% !important;
+		border-top: 1px solid #ccc;
+	    margin-top: 20px !important;
+	    padding: 20px 0px !important;
+	}
+	.fly-detail-text-info ul li {
+    	font-size: 12px;
+	}
+
+	.standby-time{
+		margin-left: 26px
+	}
+	.fly-border, .bus-border{
+		margin: 8px 12px;
+	}
+	.route-fly{
+		width: 30%;
+	}
+
+	.fly-border-abroad{
+		margin: 0px 4px;
+	}
+
+	.route-fly-abroad{
+		width: 15%;
+	
+	}
+	.clock-city-bus{
+		margin-right: 10px;
+	}
+	.clock-city-fly{
+		margin-right: 10px;
+	}
+
+	.fly-logo > img{
+		height: 20px
+	}
+
+	.ticket-fly-clock {
+	    font-size: 16px;
+	}
+
+	.clock-fly-city {
+	    margin: 10px 17px 0px 0px;
+	}
+
+	.clock-fly-city2 {
+	    margin: 10px 0px 0px 9px;
+	}
+
+	.copyright-text > a {
+	    margin-right: 20px;
+	    float: none;
+	    text-align: center;
+	}
+
+	.support-line-text > h5 {
+	    font-size: 18px;
+	}
+
+	.support-line-text > span {
+	    font-size: 16px;
+	}
+
+	.tablet-menu{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		z-index: 9
+	}
+
+	.sticky .mobil-logo{
+		display: block;
+		margin: 10px;
+	}
+
+	.sticky .mobil-logo img{
+		width: 180px !important;
+	}
+
+	.route-dot{
+		width: 16%;
+	}
+	#chair-list {
+		height: 280px;
+		position: absolute;
+		width: 590px;
+	}
+	.mobile-chair{
+	    width: 80%;
+	    margin-left: 10px;
+		height: 296px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.day-next-prev > li{
+		margin-right: 0px
+	}   
+	.outer-menu {
+		position: fixed;
+		top: 0px;
+		right: 17px;
+		z-index: 2;
+		display: block;
+		height: 65px;
+	}
+	.outer-menu .checkbox-toggle {
+	    position: absolute;
+	    top: 0;
+	    right: 0px;
+	    z-index: 2;
+	    cursor: pointer;
+	    width: 65px;
+	    height: 65px;
+	    opacity: 0;
+	}
+	.outer-menu .checkbox-toggle:checked + .hamburger > div {
+		-webkit-transform: rotate(135deg);
+		transform: rotate(135deg);
+	}
+	.outer-menu .checkbox-toggle:checked + .hamburger > div:before,
+	.outer-menu .checkbox-toggle:checked + .hamburger > div:after {
+		top: 0;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	.outer-menu .checkbox-toggle:checked + .hamburger > div:after {
+		opacity: 0;
+	}
+	.outer-menu .checkbox-toggle:checked ~ .menu {
+		pointer-events: auto;
+		visibility: visible;
+	}
+	.outer-menu .checkbox-toggle:checked ~ .menu > div {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		transition-duration: 0.75s;
+	}
+	.outer-menu .checkbox-toggle:checked ~ .menu > div > div {
+		opacity: 1;
+		transition: opacity 0.4s ease 0.4s;
+	}
+	/*.outer-menu .checkbox-toggle:hover + .hamburger {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+	}*/
+	.outer-menu:hover + .outer-menu > div {
+		-webkit-transform: rotate(225deg);
+		transform: rotate(225deg);
+	}
+	.outer-menu .hamburger {
+	    position: absolute;
+	    top: 0px;
+	    right: -15px;
+	    z-index: 1;
+	    width: 60px;
+	    height: 65px;
+	    cursor: pointer;
+	    transition: box-shadow 0.4s ease;
+	    -webkit-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    padding: 0 10px;
+	}
+	.outer-menu .hamburger > div {
+		position: relative;
+		flex: none;
+		width: 94%;
+		height: 2px;
+		background: #3e3e3e;
+		transition: all 0.4s ease;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.outer-menu .hamburger > div:before,
+	.outer-menu .hamburger > div:after {
+		content: '';
+		position: absolute;
+		z-index: 1;
+		top: -12px;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: inherit;
+		transition: all 0.4s ease;
+	}
+	.outer-menu .hamburger > div:after {
+		top: 12px;
+	}
+	.outer-menu .menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		visibility: hidden;
+		overflow: hidden;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		outline: 1px solid transparent;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.outer-menu .menu > div {
+		width: 200vw;
+		height: 200vw;
+		color: #E1E6E4;
+		background-color: #ffffff;
+		transition: all 0.4s ease;
+		flex: none;
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.outer-menu .menu > div > div {
+		text-align: center;
+		max-width: 90vw;
+		max-height: 100vh;
+		opacity: 0;
+		transition: opacity 0.4s ease;
+		overflow-y: auto;
+		flex: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.outer-menu .menu > div > div > ul {
+		list-style: none;
+		padding: 0 1em;
+		margin: 0;
+		display: block;
+		max-height: 100vh;
+	}
+	.outer-menu .menu > div > div > ul > li {
+		padding: 0;
+		margin: 1em;
+		font-size: 20px;
+		display: block;
+	}
+	.outer-menu .menu > div > div > ul > li > a {
+		position: relative;
+		display: inline;
+		cursor: pointer;
+		transition: color 0.4s ease;
+		color: #fe9e3b;
+	}
+	.outer-menu .menu > div > div > ul > li > a:hover {
+		color: #fff;
+	}
+	.outer-menu .menu > div > div > ul > li > a:hover:after {
+		width: 100%;
+	}
+	.outer-menu .menu > div > div > ul > li > a:after {
+		content: '';
+		position: absolute;
+		z-index: 1;
+		bottom: -0.15em;
+		left: 0;
+		width: 0;
+		height: 2px;
+		background: #e5e5e5;
+		transition: width 0.4s ease;
+	}            
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+
+@media (max-width: 991px) {
+
+	.fly-border-abroad{
+		margin: 0px 4px;
+	}
+
+	.tablet-margin0{
+		margin: 0 !important;
+	}
+
+	.mobil-text-align-center{
+		text-align: center;
+	}
+
+	.footer-menu{
+		text-align: center;
+		margin-top: 15px
+	}
+
+	.footer-menu ul{
+		padding: 0px;
+	}
+
+	.tablet-none{
+		display: none;
+	}
+
+	.ticket-margin .gj-datepicker-md, .ticket-margin{
+		margin-left: 0px;
+	}
+
+	.mision-content p, .mision-content ul li{
+		width: 100%;
+	}
+	.about-content{
+		padding-top: 30px !important
+	}
+	.sticky-about{
+		position: relative;
+	}
+
+	.select2-container, .ticket-passenger, .accommodation{
+		/*width: 100%;*/
+		margin-bottom: 15px;
+		margin-left: 0px !important;
+	}
+	.passenger-modal-content {
+	    padding: 30px 2px;
+	}
+
+	.account-right {
+		margin: 0px 0px 0px 0px;
+	    padding: 30px 20px;
+	}
+
+	.account-form label {
+    	width: 100%; 
+	}
+
+	.account-form input, .input-group {
+    	width: 100%;
+    }
+
+    .account-left-menu {
+	    width: 100%
+	}
+
+	.fly-rules, .tab-fly-panel{
+	    padding: 8px 0px 0px 10px;
+	}
+
+	.train-logo {
+	    margin-left: 0px;
+	    margin-right: 14px;
+	}
+
+	.price-scroll{
+		overflow-x: scroll;
+	}
+
+	.fly-bagaj-logo, .fly-ticket-select{
+		width: 25%;
+		float: left;
+	}
+
+	.p-m-0{
+		padding: 0px !important
+	}
+	.fly-detail-text-info{
+		padding: 0px
+	}
+	.ticket-detail-date{
+		float: left !important;
+	}
+	.fly-detail-text-info ul li{
+		margin-right: 5px;
+    	font-size: 11px;
+	}
+	.fly-round-trip{
+		margin-right: 12px;
+	}
+	.mobile-mb40{
+		margin-bottom: 40px !important
+	}
+	.fly-detail-text-info ul{
+		padding: 0 !important
+	}
+	.nav-tabs-fly{
+		width: 100%;
+	}
+	.nav-tabs-fly li {
+	    font-size: 12px;
+	    width: 29%;
+	    margin: 0px 14px 10px 0px;
+	}
+	.fly-city{
+		padding: 0;
+		margin-top: 8px;
+		font-size: 11px;
+	}
+	.width-auto{
+		width: auto;
+	}
+	.chance{
+		width: 100%;
+		position: relative;
+		top: 0;
+		float: left;
+		font-size: 11px;
+	}
+	.price-ticket2{
+		margin-top: 14px;
+    	margin-left: 7px;
+	}
+	.copyright-text>div>a {
+		margin-left: 10px;
+	}
+	.cart-logo>img {
+		padding-right: 36px;
+		width: 68px;
+	}
+	.ssl-logo>img {
+		margin-right: 13px;
+		margin-top: 0px
+	}
+	.quick-filters-nav{
+		display: none
+	}
+	.support-line-text > h5 {
+		font-size: 19px;
+		margin-left: 5px;
+	}
+	.support-line-text > span {
+		font-size: 17px;
+	}
+	.search-tabs>li{
+		padding: 20px 25px 20px 25px
+	}
+	.day-next-prev > li {
+		padding: 6px 6px 6px 6px;
+		margin-right: 2px;
+	}
+	.running-out-number {
+		margin-right: 0px;
+		margin-top: 0px;
+		font-size: 10px
+	}
+	.bus-logo > img{
+		/* transform: rotate(-90deg); */
+		/* position: absolute; */
+		/* left: -22px; */
+		/* top: 37px; */
+		height: 20px;
+	}
+	.ticket-clock{
+		font-size: 18px
+	}
+	.clock-city-bus{
+		margin-top: 27px;
+		width: 20%;
+		margin-right: 0px;
+	}
+
+	.clock-city-fly{
+		margin-top: 27px;
+		width: 28%;
+	}
+
+	.fly-border {
+	    margin: 0px 7px;
+	}
+
+	.bus-border {
+	    margin: 0px 3px;
+	}
+
+	.price-ticket-bus {
+	    margin-top: 20px;
+	}
+
+	.price-ticket-fly {
+	    margin-top: 20px;
+	}
+
+	.route-dot {
+	    margin-top: 30px;
+	}
+	.bus-border:nth-child(even){
+		/* border: none; */
+	}
+
+	.search-info{
+		height: 90px
+	}
+
+	.route-dot {
+		width: 23%;
+	}
+	.price-ticket-bus {
+		font-size: 22px;
+	}
+	.price-ticket-bus > h6 {
+		font-size: 12px;
+	}
+
+	.price-ticket-fly {
+		font-size: 19px;
+		margin-left: 7px;
+	}
+	.price-ticket-fly > h6 {
+		font-size: 11px;
+	}
+
+	.ticket-search-select{
+		padding: 12px 9px;
+		border-radius: 20px;
+		font-size: 20px;
+	}
+
+	.fly-advers{
+		padding: 30px 30px
+	}
+	.tac100{
+		text-align: center;
+		width: 100%;
+	}
+	.fly-advers h5 {
+		font-size: 21px;
+	}
+	.fly-advers h3 {
+		font-size: 20px;
+	}
+
+	.fly-advers-column2, .fly-advers-column1{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.filter-menu-info.active{
+		width: 100%;
+	}
+
+	.ticket-search-button {
+		padding: 11px 0px !important;
+		width: 11%;
+		font-size: 12px;
+	}
+	.transfer-mobil{
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+	.nav-tabs-fly li a{
+		padding: 12px 0px
+	}
+
+	.price-select {
+	    margin-right: 25px;
+	    margin-top: 20px;
+	}
+
+	.ticket-passenger{
+		margin-top: 18px;
+	}
+
+	.mb-quicfiltertext{
+		margin-top: 20px
+	}
+
+	.banner-bottom-slogan {
+    	padding: 170px 0px 0px 0px;
+    }
+    .detail-fly{
+    	float: none;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+	.fly-border-abroad{
+		margin: 0px 4px;
+	}
+
+	.chance h6, .chance span{
+		font-size: 11px;
+	}
+
+	.bus-border {
+	    height: 55px;
+	}
+
+	.mobil-transfer-icon{
+		margin-left: 0px !important
+	}
+
+	.select2-container, .ticket-passenger, .accommodation{
+		width: 100%;
+	}
+
+	.collapse-bar ul, .collapse-bar ul li {
+	    display: inline-block;
+	    width: 100%;
+	    border-bottom: 1px dashed #ccc;
+	    text-align: center;
+	}
+
+	.collapse-bar ul, .collapse-bar ul li:last-child{
+		border-bottom: 1px solid #ff0101;
+	}
+
+	.collapse-bar ul li{
+		padding: 10px 0 !important;
+		margin: 0px
+	}
+
+	.ticket-search-subpage{
+		background-color: #fff;
+		margin-top: 20px;
+		padding: 20px 15px !important
+	}
+
+	.my-ticket-show > li {
+		text-align: center;
+	    display: table-cell;
+	    padding: 0px 20px 10px 15px;
+	    float: left;
+	    width: 100%;
+	    margin-top: 10px;
+	    border-bottom: 1px solid #dcdcdc;
+	}
+	.my-ticket-show{
+		border-bottom: 2px dashed #ff972c;
+    	padding-bottom: 25px;
+	}
+	.my-ticket-show > li:last-child, .ticket-stroke:last-child,.my-ticket-show:last-child{
+		border: none;
+	}
+	.my-ticket-where-border{
+		display: none !important;
+	}
+	.tab-content-fly .tab-fly-panel{
+		margin-bottom: 30px
+	}
+
+	.list-go-back li {
+	    padding: 0 2px;
+	}
+
+	.h3, h3 {
+		font-size: 1.2rem;
+	}
+
+	.h5, h5 {
+		font-size: 1rem;
+	}
+
+	.accommodation-options{
+		width: 100%;
+	}
+	.train-select-button{
+		bottom: 90px;
+	}
+	
+	.detail-fly{
+		display: none;
+	}
+
+	.clock-city-bus {
+	    width: 19%;
+	    margin-top: 20px;
+	}
+	.clock-city-fly {
+	    width: 23%;
+	    margin-top: 20px;
+	}
+
+	.clock-fly-city {
+	    margin: 10px 25px 0px 10px;
+	}
+	.clock-fly-city2 {
+	    margin: 10px 10px 0px 25px;
+	}
+
+	.train-clock{
+		margin: 10px 28px 0px 0px;
+	}
+
+	.sticky .mobil-logo {
+		display: block;
+		margin-top: -5px;
+		margin-left: 0px;
+	}
+
+	.filter-flight-bus {
+		background-color: #fff;
+		width: 100% !important;
+		height: 500px;
+		margin: 25px 0px 0px 0px;
+		padding: 30px 15px 30px 15px;
+		border-radius: 0px;
+	}
+
+	.navbar-collapse {
+		background-color: #f1f1f1;
+		text-align: -webkit-center;
+		z-index: 9;
+		position: fixed;
+		width: 93%;
+		top: 67px;
+		padding: 40px;
+	}
+
+	.gj-datepicker{
+		margin-bottom: 12px;
+	}
+
+	.ticket-datepicker2{
+		border:none !important;
+	}
+
+	.ticket-datepicker:nth-last-child(even){
+		border:none;
+	}
+
+	.mobile-icon-forward{
+		text-align: center;
+		width: 25px;
+		height: 25px;
+		padding: 19px !important;
+		float: left;
+		top: 14px;
+		border-radius: 20px;
+		border: 1px solid #c3c3c3;
+		background-color: #fff;
+		z-index: 1;
+		right: 45%;
+	    left: 45%;
+	    position: absolute;
+	    transform: rotate(90deg);
+	}
+
+	.mobile-icon-forward > img{
+		right: 6px;
+		top: 12px;
+		position: absolute;
+		width: 23px;
+	}
+
+	.mobile-counter{
+		padding: 0px;
+	}
+
+	.economy-business{
+		margin: 14px 0px 0px 0px;
+    	text-align: center;
+	}
+
+	.ticket-icon2 {
+		right: 33px;
+		top: 22px;
+		background-color: transparent;
+	}
+
+	.ticket-icon1 {
+		right: 23px;
+		top: 9px;
+	}
+
+	.social-icon{
+	    padding: 4px 14px;
+	    width: 58px;
+	}
+
+	.social-icon>i {
+	    font-size: 18px;
+	    margin: 2px 6px;
+	}
+
+	.popular-city{
+		padding: 40px 0px 0px 0px;
+	}
+
+	.popular-city-bg{
+		padding: 25px 0px 0px 0px
+	}
+
+	.popular-city-text > h2{
+		font-size: 24px;
+	}
+
+	.popular-city-text > h1{
+		margin-left: -10px;
+	}
+
+	.popular-img-text{
+		top: 49px !important;
+		left: 10px;
+		right: 10px;
+	}
+
+	.mobile-text-align-center{
+		text-align: center;
+	}
+
+	.mobile-text-align-center{
+		margin-right: 15px;
+	}
+
+	.public-banner{
+		background-position: left;
+		padding: 20px 0px 0px 0px;
+	}
+
+	.public-banner-phone{
+		margin:25px 0px 0px 0px;
+	}
+
+
+	.ebulten-input{
+		width: 100%;
+	}
+
+	.ebulten-submit{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.mobil-footer-logo{
+		width: 60% !important
+	}
+
+	footer {
+		padding: 20px 0
+	}
+
+	.social {
+		margin-top: 20px;
+	}
+
+	.expedition{
+		padding: 11px 0px;
+	}
+
+	.support-line {
+	    text-align: center;
+	    margin-top: 25px;
+	}
+
+	.support-line:after{
+		content: '';
+		border-bottom: 1px solid #ffffff57;
+		border-radius: 0;
+		width: 80%;
+		float: left;
+		margin-left: 10%;
+	}
+
+	.support-line > div{
+		text-align: center;
+		margin-top: 15px
+	}
+
+	.support-line > div {
+		margin-bottom: 10px
+	}
+
+	.owl-prev {
+		left: 0px;
+	}
+
+	.owl-next{
+		right: 0px;
+	}
+
+	.filter-flight-bus{
+		height: auto;
+	    z-index: 1;
+	    position: relative;
+	    margin-bottom: 25px;
+	}
+
+	.ticket-search {
+		padding: 15px;
+		margin-right: 55px;
+		width: 97%;
+		float: left !important;
+	}
+
+	.select2-container{
+		margin-bottom: 10px;
+	}
+
+	.mb-3-0-mobil{
+		margin-bottom: 0px !important
+	}
+
+	.ticket-icon{
+		right: 14px;
+	}
+
+	.ticket-way > a, .dropdown-list{
+		font-size: 14px;
+	}
+
+	.ticket-way > ul {
+		border: 1px solid #cecece;
+		width: 100%;
+		padding: 0px;
+		position: absolute;
+		margin-top: 8px;
+		left: 0;
+	}
+	.ticket-way > ul > li {
+		padding: 14px 0px 14px 13px;
+		border-bottom: 1px solid #cecece;
+	}
+
+	.dropdown-menu {
+		min-width: 100%;
+	    border: 1px solid #cecece;
+	    margin-top: 0px;
+	}
+
+	.collapse-counter {
+		background-color: #fff;
+		width: 100%;
+		padding: 10px 15px;
+		border-bottom: 1px solid #cecece;
+		text-align: center;
+		margin: 0px;
+    	height: 48px;
+	}
+
+	.select2-dropdown{
+		animation-duration:initial;
+	}
+
+	.bus{
+		width: 33%;
+	}
+
+	.sky-left{
+		display: none
+	}
+
+	.sky-right {
+		left: 19px;
+		top: 41%;
+		width: 91%;
+	}
+	.ticket-way{
+		padding: 9px 0px 9px 13px;
+		background-color: #f1f1f1;
+		border-radius: 4px;
+		margin-left: 0;
+	}
+
+	.dropdown-list{
+		padding: 8px 0px 8px 12px;
+		margin-top: 4px;
+		border-radius: 4px;
+		margin-left: 0px;
+		background-color: #f1f1f1
+	}
+
+	.js-dropdown-list:before {
+		top: -14px;
+		left: 148px;
+	}
+
+	.ticket-icon1{
+		background-color: transparent;
+	}
+
+
+    .mobile-none{
+    	display: none !important
+    }
+
+    body{
+    	overflow-x: hidden;
+    }
+
+    .mobil-logo{
+    	position: absolute;
+    	z-index: 1;
+    	top: 22px;
+    	left: 19px;
+    }
+
+    .desktop-none{
+    	display: block;
+    }
+
+    .public-banner-phone {
+    	transition-delay: 1s;
+    }
+
+    .ebulten-banner{
+    	line-height: 35px
+    }
+
+    .submit-icon{
+    	margin-top: 8px;
+    	z-index:1
+    }
+
+	.select-ticket-type{
+		padding: 0px !important;
+	}
+
+	.js-link:after {
+		top: 15px;
+		right: 8px;
+	}
+
+	.dropdown-person:after {
+		right: 13px;
+		top: 11px;
+	}
+
+	.mobile-icon-forward > i {
+		top: 6px;
+		right: 3px;
+		position: absolute;
+	}
+
+	.gj-picker-md {
+		width: 85%;
+	}
+
+	.submit-phone{
+		width: 93%;
+	}
+
+	.phone-number-input{
+		width: 92%;
+	}
+
+	.signin-top{
+		top: 45%;
+		bottom: 45%;
+	}
+
+	.ticket-passenger-switch{
+		margin-bottom: 9px;
+	}
+
+	.select-ticket, .select-picker{
+		width: 100%;
+	}
+
+	.select-picker{
+		margin: 0 !important
+	}
+
+	.slogan-border{
+		height: 200px;
+		width: 90%;
+		padding-top: 25px;
+		margin-bottom: 20px;
+	}
+
+	.banner-bottom-slogan {
+		background-color: #E1E6E4;
+		padding: 0px;
+		z-index: 1;
+		margin-top: 0px;
+	}
+
+	.banner-slogan{
+		bottom: 2px;
+	}
+
+	.banner-bottom-icon{
+		margin-bottom: 25px;
+	}
+
+	.owl-campaign-active {
+		width: 100%;
+	}
+
+	.airlane-logo{
+		height: 75px;
+	}
+
+	.datepicker-content{
+		box-shadow: none;
+	}
+
+	.ticket-search-subpage{
+		-webkit-box-shadow:none;
+		box-shadow: none;
+		z-index: 1;
+	}
+
+	#searchbar{
+	    margin-left: 10px;
+	    padding-right: 7px !important;
+	}
+
+	.select-styled{
+		margin: 15px 10px;
+	}
+
+	.select-styled:after{
+		right: 4px
+	}
+
+	.datepicker-content .gj-datepicker{
+		-webkit-box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.1), 0 0px 9px 0 rgba(156, 156, 156, 0.2);
+		box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.1), 0 0px 9px 0 rgba(156, 156, 156, 0.2);
+	}
+
+	.mobile-logo{
+		width: 65% !important;
+		margin-left: 6px;
+	}
+
+	.search-tabs>li {
+		padding: 10px 26px 10px 26px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+	}
+
+	.price-select{
+		width: 100%;
+		margin: 10px 0px 8px 0px;
+	}
+
+	.ticket-search-button{
+		width: 98%;
+		float: left !important;
+	}
+
+	.quick-filters-nav{
+		width: 100% !important;
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	.mb-quicfiltertext{
+		float: left !important;
+		width: 100%;
+		height: 32px;
+		margin: 0;
+	}
+
+	.filtermenu {
+		left: 8px;
+		top: 16px;
+	}
+
+	.filter-nav-menu {
+		width: 95%;
+		left: 50%;
+	}
+
+	.seat {
+		width: 46%;
+	}
+
+	.day-next-prev > li {
+		color: #fff;
+		cursor: pointer;
+		padding: 6px;
+		margin-right: 0px;
+		margin-top: 2px;
+	}
+
+	.active-day{
+		font-size: 16px;
+	}
+
+	.day-next-prev > li > a{
+		font-size: 14px;
+	}
+
+	.ticket-clock{
+		/* font-size: 18px; */
+	}
+
+	.ticket-city{
+		font-size: 11px
+	}
+
+	.price-ticket-bus {
+		font-size: 18px;
+		margin-top: 13px;
+		width: 55px;
+		margin-left: 7px;
+	}
+
+	.price-ticket-fly {
+		font-size: 18px;
+		margin-top: 8px;
+		width: 55px;
+		margin-left: 5px;
+	}
+
+	.train-ticket{
+		width: 70px;
+	}
+
+	.train-info{
+		height: auto !important;
+    	padding: 5px 5px 0px 5px;
+	}
+
+	.ticket-search-select{
+		width: 54px;
+	    font-size: 20px;
+	    margin-right: 0px;
+	    margin-top: 11px;
+	    padding: 2px 8px;
+	}
+
+	.fly-border, .bus-border {
+	    margin: 0px 12px;
+	}
+
+	.mobile-wheel{
+		width: 36px;
+		height: 100vh;
+		padding: 0px;
+	}
+
+	.empty-child{
+		width: 38px;
+	}
+
+	.chair-list{
+		width: 36px;
+	}
+
+	.bus-content{
+		max-height: 365px;
+	}
+
+	.price-ticket-confirm{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.search-info{
+		height: 65px;
+	}
+
+	.running-out-number {
+	    font-size: 9px;
+	    margin-right: 0px;
+	    right: 8px;
+	    margin-top: 4px;
+	}
+
+	.tooltip-ticket > img{
+		width: 20px;
+	}
+
+	.bus-info-text{
+		font-size: 13px;
+	}
+
+	.bus-logo {
+		margin-right: 10px;
+		margin-left: 5px;
+	}
+
+	.fly-advers{
+		padding: 10px 10px;
+	}
+
+	.tac100{
+		text-align: center;
+		width: 100%;
+		font-size: 16px;
+		margin-top: 2px !important;
+	}
+
+	.fly-advers h5 {
+		font-size: 16px;
+	}
+
+	.fly-advers h3 {
+		font-size: 15px;
+	}
+
+	.route-fly{
+		position: absolute;
+		bottom: 0px
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+	.fly-advers div img{
+    	position: absolute;
+	}
+	
+	.list-search{
+		padding: 12px;
+	}
+
+	.fly-city{
+		width: 100%;	
+	}
+
+	.ticket-margin .gj-datepicker-md, .ticket-margin {
+		margin-left: 0px;
+	}
+
+	.ticket-margin .ticket-search {
+	    width: 100% !important;
+	    margin-left: 0%;
+	    display: block;
+	}
+
+	.owl-campaign-active {
+		padding: 0px;
+		line-height: 98px;
+	}
+
+	.owl-campaign-active:hover::after {
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		opacity: 0.85;
+		background-position: 100% center;
+	}
+
+	.mobile-container{
+		margin-top: 80px
+	}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+	.fly-border{
+		margin: 0px 10px;
+	}
+
+	.tooltip-ticket{
+		margin-right: 6px;
+	}
+	
+	.bus-border {
+	    margin: 9px 0px;
+	}
+	.ticket-fly-clock {
+	    font-size: 14px;
+	}
+
+	.clock-fly-city {
+	    margin: 10px 7px 0px 0px;
+	}
+
+	.clock-fly-city2 {
+	    margin: 10px 0px 0px 0px;
+	}
+
+	.nav-tabs-fly li{
+		margin: 0px 10px 10px 0px;
+	}
+
+}
+
+
+@media (max-width: 321px) {
+
+}

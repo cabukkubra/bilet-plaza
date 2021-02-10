@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.661" height="64.661" viewBox="0 0 64.661 64.661">
+  <g id="ticket-border-radius-icon" transform="translate(1.5 1.5)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="30.831" cy="30.831" r="30.831" fill="none" stroke="#32403d" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Group_208" data-name="Group 208" transform="translate(20.5 36.118) rotate(-90)">
+      <path id="_" data-name="" d="M9.961,0a.647.647,0,0,1,.251.048.658.658,0,0,1,.213.145.644.644,0,0,1,.193.474.644.644,0,0,1-.193.474l-8.82,8.82,8.7,8.7a.654.654,0,0,1,0,.928.677.677,0,0,1-.948,0L.193,10.425a.654.654,0,0,1,0-.928L9.5.193A.633.633,0,0,1,9.719.048.672.672,0,0,1,9.961,0Z" fill="none" stroke="#32403d" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
